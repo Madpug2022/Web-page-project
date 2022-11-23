@@ -250,7 +250,10 @@ button:hover {
   background-clip: text;
   -webkit-background-clip: text;
 }
-
+.recentNews{
+  width: 950px;
+  margin: auto;
+}
 .recentNews .news-title {
   text-align:center;
   padding-top:30px;
@@ -338,4 +341,31 @@ button:hover {
 }
 .btn-news.btn-contests a:hover {
   color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.gallery {
+  margin: auto;
+  float: right;
+  width: 25%;
+  display: block
+}
+.gallery2 {
+  margin: auto;
+  float: left;
+  width: 25%;
+  display: block;
+}
+.gallery img {
+  width: 100%;
+
+}
+.gallery2 img {
+  width: 100%;
+
 }
